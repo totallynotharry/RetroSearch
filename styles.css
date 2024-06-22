@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.search-box .world {
+    color: #0066cc;
+}
+
+.search-box p {
+    margin: 10px 0;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
